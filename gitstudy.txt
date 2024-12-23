@@ -16,5 +16,6 @@
 	  git fetch --prune （批量删除本地分支）
 	  git branch -d <旧分支> 如果他们的分支还在
 	  git checkout <新分支>
+3、将最新提交增加到最后一条提交记录里，如何操作？
 
 3、git pull 命令拉取远程分支代码出现冲突时，如果使用vim编辑器解决？
