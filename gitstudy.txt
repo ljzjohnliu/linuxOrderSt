@@ -8,13 +8,15 @@
       git branch -m <旧分支名称> <新分支名称>
 	  备注：新的分支是本地分支且内容是和旧的分支相同
    3）将远程仓库的旧分支删除
+      git branch -D 分支名 删除本地分支
       git push origin --delete <旧分支>
    4）将新的分支推送到远程仓库
       git push origin -u <新分支>
 	  
 	  备注：如果其他人也在使用这个分支，需要通知其他人更新这个分支
 	  git fetch --prune （批量删除本地分支）
-	  git branch -d <旧分支> 如果他们的分支还在
+	  git branch -D <旧分支> 如果他们的分支还在
 	  git checkout <新分支>
 
 3、git pull 命令拉取远程分支代码出现冲突时，如果使用vim编辑器解决？
+
